@@ -1,0 +1,11 @@
+{
+    "manifest_version": 2,
+    "name": "Google New Tab",
+    "version": "1.0",
+    "description": "Open Google in every new tab",
+    "permissions": ["tabs"],
+    "chrome_url_overrides" : {
+      "newtab": "newtab.html"
+    }
+  }
+  
